@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    background-color: aliceblue;
+}
+
+.container {
+    width: 50%;
+    height: 75%;
+    border-radius: 25px;
+    background-color: rgb(169, 236, 214);
+    color: rgb(27, 27, 214);
+    font-family: sans-serif;
+    padding: 1rem;
+    box-shadow: 2px 4px 5px grey;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+section #amount, #guests {
+    padding: 0.5rem;
+    border: none;
+    width: 95%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+}
+
+ section .logo {
+    width: 5%;
+    padding: 0.5rem;
+    background-color: rgb(203, 223, 241);
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+select {
+    width: 100%;
+    border-radius: 15px;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+}
+
+.btn {
+    text-align: center;
+    
+}
+
+.btn button {
+    border-radius: 25px;
+    padding: 0.8rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(27, 27, 214);
+    margin: 0.5rem 0rem;
+}
+
+.btn button:hover {
+    border-radius: 25px;
+    padding: 1rem;
+    border: 1px solid grey;
+    cursor: pointer;
+    background-color: rgb(27, 27, 214);
+    color: aliceblue;
+    margin: 0.5rem 0rem;
+}
+
+#display {
+    text-align: center;
+    font-size: 20px;
+}

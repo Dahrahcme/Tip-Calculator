@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="tip.css">
+    <title>Revised Tip Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <header>
+                <h1>Tip Calculator</h1>
+            </header>
+            <section>
+                <label for="bill">Bill Amount </label>
+                <br>
+                <button class="logo">&#8358;</button><input type="number" id="amount">
+                <br> <br>
+                <label for="bill">Number of Guests</label>
+                <br> 
+                <button class="logo"><i class="fas fa-male"></i></button><input type="number" id="guests">
+                <br> <br>
+                <label for="bill">Are your guests willing to contribute to the tip?</label>
+                <br> 
+                <input name="willingGuest" id="yes" value="1" type="radio"> Yes
+                <input name="willingGuest" id="no" value="0" type="radio"> No
+                <br> <br>
+                <label for="quality"> Service Quality: </label>
+                <br> 
+                <select id="quality">
+                    <option disabled value="0">Choose</option>
+                    <option value="0.2"> 20% - Generous at Heart </option>
+                    <option value="0.15"> 15% - Exceptional Service Delivery </option>
+                    <option value="0.1"> 10% - Good Service Delivery </option>
+                    <option value="0.05"> 5% - Service Delivery was just there </option>
+                </select>
+                <br> <br>               
+            </section>
+            <div class="btn">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+            <div id="display"></div>
+        </div>
+    </main>
+    <script src="./tip.js"></script>
+</body>
+</html>
