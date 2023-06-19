@@ -67,6 +67,7 @@ select {
 .btn button {
     border-radius: 25px;
     padding: 0.8rem;
+    width: 25%;
     border: 1px solid grey;
     cursor: pointer;
     background-color: aliceblue;
